@@ -92,7 +92,12 @@ public class GenericMethods {
 	}
 	
 	
+	public static boolean TestGit(String Fieldtext)
+	{
+	   driver.findElement(By.xpath(Fieldtext)).isDisplayed();
+	   return true;
 	
+	}
 	
 	
 	
